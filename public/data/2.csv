@@ -1,0 +1,22 @@
+Tracking_ID,Request_ID,Product_Name,Lot_no,Registration_No,Dosage(mg),Country,Date_of_submission,Label_change_notification,Tracking_status,Expected_date_of_approval,DB_id
+200110,122001-01-02,Fenatnyl,B00342,437-38-7,100,Argentina ,2/9/2020,Y,Processed ,3/2/2021,https://go.drugbank.com/drugs/DB00813
+200111,122001-01-02,Fenatnyl,DS-120-23,437-38-7,100,Argentina  ,4/12/2020,Y,Processed ,3/12/2021,https://go.drugbank.com/drugs/DB00813
+200112,122001-01-03,Fenatnyl,DS-121-23,437-38-7,50,Argentina ,4/12/2021,N,Processed ,1/10/2022,https://go.drugbank.com/drugs/DB00813
+200113,122001-01-03,Fenatnyl,F-00321,437-38-7,50,Canada  ,1/2/2021,N,Processed ,6/12/2021,https://go.drugbank.com/drugs/DB00813
+200114,122001-01-03,Fenatnyl,MD-300402,437-38-7,50,Australia,1/12/2021,Y,Terminated ,20-11-2021,https://go.drugbank.com/drugs/DB00813
+200115,122001-01-03,Fenatnyl,MD-300402,437-38-7,50,Australia ,1/12/2021,Y,Closed ,30-11-2021,https://go.drugbank.com/drugs/DB00813
+200116,122001-01-04,Fenatnyl,SR09832,437-38-7,100,Russia,3/6/2022,Y,Pending ,12/12/2022,https://go.drugbank.com/drugs/DB00813
+200117,122001-01-05,Fenatnyl,SRT 03452,437-38-7,25,Russia ,3/10/2022,N,Pending ,11/12/2022,https://go.drugbank.com/drugs/DB00813
+200118,122001-01-05,Fenatnyl,SRT00875,437-38-7,25,Russia,14-03-2022,Y,Pending ,7/12/2022,https://go.drugbank.com/drugs/DB00813
+200119,122001-01-05,Fenatnyl,SRC00976,437-38-7,25,Russia,23-12-2020,Y,Processed ,15-12-2021,https://go.drugbank.com/drugs/DB00813
+200120,122001-01-05,Fenatnyl,SRC09912,437-38-7,100,Russia,23-12-2020,Y,Pending ,20-02-2021,https://go.drugbank.com/drugs/DB00813
+200121,122001-01-06,Fenatnyl,TGF023-002,437-38-7,100,Sweden,2/11/2020,Y,Closed ,20-02-2021,https://go.drugbank.com/drugs/DB00813
+200122,122001-01-06,Lonazep,MSD0901002,1622-61-3,0.25,USA,14-02-2023,N,Pending ,23-02-2024,https://go.drugbank.com/drugs/DB00186
+200123,122001-01-06,Lonazep,TOR00034,1622-61-3,0.25,Russia,22-12-2023,N,Pending ,3/12/2024,https://go.drugbank.com/drugs/DB00186
+200124,122001-01-06,Lonazep,ACT99456-002,1622-61-3,0.25,Canada  ,16-10-2023,N,Pending ,20-03-2023,https://go.drugbank.com/drugs/DB00186
+200125,122001-01-07,Lonazep,SUN00987-001-001,1622-61-3,0.25,India ,18-11-2023,Y,closed ,20-12-2023,https://go.drugbank.com/drugs/DB00186
+200126,122001-01-07,Cyclopropyl fentanyl,MGS-007-0045,1169-68-2,100,USA,6/11/2020,Y,Processed ,24-09-2020,NA
+200127,122001-01-07,Cyclopropyl fentanyl,CAS01203,1169-68-2,100,Canada  ,23-07-2021,N,Pending ,23-04-2024,NA
+200128,122001-01-08,Cyclopropyl fentanyl,DTC-001-003,1169-68-2,100,Australia ,16-08-2020,N,Closed ,24-12-2023,NA
+200129,122001-01-09,Cyclopropyl fentanyl,SAR-008-0034,1169-68-2,50,Russia ,20-09-2020,Y,Closed ,10/7/2023,NA
+200130,122001-01-10,Cyclopropyl fentanyl,SAR-008-0035,1169-68-2,20,Russia,15-10-2020,Y,Closed ,10/5/2023,NA

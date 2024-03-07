@@ -1,0 +1,158 @@
+.custom-layout-header {
+  background-color: #eb1700;
+}
+.custom-layout-header span {
+  font-size: 14px;
+  margin-top: 1px;
+  float: right;
+  margin-left: 5px;
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+.search-section input {
+  font-weight: bold;
+  box-sizing: border-box;
+  background: #ffffff;
+  padding: 12px;
+  width: 65%;
+  font-size: 13px;
+}
+
+.search-section .search-icon {
+  position: absolute;
+  right: 10%;
+  cursor: pointer;
+  background: #d6d0d0;
+  padding: 2px;
+  border-radius: 12px;
+}
+.search-section .upDownSvg {
+  position: relative;
+  z-index: 99999;
+}
+.search-section select {
+  background: #e8e8e8;
+  color: #000;
+  font-weight: bold;
+}
+
+.search-section svg {
+  position: absolute;
+  top: -11px;
+  right: 7px;
+}
+
+.left-custom-sidebar {
+  width: 5%;
+  background-color: #700b00;
+}
+
+.left-custom-sidebar li {
+  border-bottom: 1px solid #8d8787;
+}
+
+.left-custom-sidebar a {
+  padding: 15px 0px 21px 24px;
+  
+}
+
+
+.chat-area-box {
+  position: relative;
+  padding: 24px;
+}
+
+.right-side-bar .bg-grey-custom {
+  background-color: #eee;
+}
+
+.chat-area-box .heading-container {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.chat-area-box .conversation-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.three-box .card.bg-white.rounded-md.overflow-hidden.shadow-md {
+  background: #e8e8e8;
+}
+
+.three-box .card-header {
+  border-bottom: 1px solid #ccc;
+}
+
+.three-box ul li {
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 8px;
+  background: #fff;
+  font-size: 14px;
+  color: #5c5c5c;
+}
+
+.three-box .query-holder {
+  background: #615d5d;
+  color: #fff;
+}
+
+.search-record-data .table-parent {
+  padding: 14px;
+}
+
+.search-record-data .pieChart-container {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-record-data .first-child {
+  background: #f7f7f7;
+}
+.search-record-data .second-child {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.search-record-data table th {
+  border: 1px solid #e1e1e1;
+  background: #c6d4e1;
+}
+
+.search-record-data table tr {
+  border: 1px solid #e1e1e1;
+}
+
+.search-record-data table td {
+  border: 1px solid #e1e1e1;
+}
+
+.search-record-data .text-right button {
+  background-color: #c4c4c4;
+  margin-left: 8px;
+}
+
+.search-record-data .left-heading-bar {
+  position: relative;
+}
+
+.left-heading-bar svg {
+  position: absolute;
+  top: 1px;
+  left: -8px;
+}
+
+table {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* .apexcharts-text {
+  fill: #fff !important;
+} */

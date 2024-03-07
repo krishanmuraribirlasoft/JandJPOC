@@ -1,0 +1,16 @@
+Request_ID,Tracking_ID,Drug_name ,Company ,Genric_name,Strength,Dosage,Country,Type_of_application,Marketing_status,Application_no,Submission_date,Status,email_notification,Expected_approval_date
+110001,T-001-001,AHydrocort,Hospira ,Hydrocortisone ,100,Injectatable ,UK,ANDA,Prescription , ANDA #040666 ,23-12-2023,Pending ,david.mclaud@drl.co.in,6/5/2024
+110002,T-001-002,AHydrocort,Abott,Hydrocortisone ,100,Injectatable ,USA,ANDA,Prescription ,ANDA#085928,10/10/2023,Processed ,"neilson.nicolas@drl.co,in",3/2/2024
+110003,T-001-003,Opsumit ,Johnson and Johnson,Macitentan,100,Tablet ,USA,ANDA,Prescription ,ANDA#045967,24-02-2024,Pending ,simmon.rick@drl.co.in,6/7/2024
+110004,I-001-004,OPsynvi,Johnson and Johnson,Macitentan-tadafil,100,Tablet ,USA,ANDA,Prescription ,ANDA#223457,20-02-2024,Pending ,backam.mike @drl.co.in,15-07-2024
+110005,I-001-005,OPsynvi,Johnson and Johnson,Macitentan-tadafil,100,Tablet ,EU,ANDA,Prescription ,ANDA# 556712,1/12/2024,Processed ,naily.mclaudin@drl.co.in,20-03-2024
+110006,A-001-006,Tremfya ,Johnson and Johnson,Guselkumab,0.5,Tablet ,USA,BLA,Phase 3,BLA# 452234,16-02-2024,Pending ,sazien.cavin@cder.co.in,27-04-2024
+110007,I-001-007,Uptravi,Johnson and Johnson,Selexipag,25,Tablet ,USA,IND,Phase 3,IND# 355091,2/2/2024,Processed ,simmon.rick@drl.co.in,3/10/2024
+110008,T-001-008,Seltorexant ,Johnson and Johnson,Seltoexant ,10,Solution,USA,NDA,Phase 3,NDA# 400678,25-01-2024,Pending ,saioto/takasi@cder.co.in,27-03-2024
+110009,0-001-009,TAR 200,Johnson and Johnson,gemcitabine plus cetrelimab,20,Injectatable ,USA,IND,Prelinical,IND# 776542,24-02-2024,Pending ,fbien.john@cder.co.in,4/4/2024
+110010,A-001-010,Tremfya ,Johnson and Johnson,Guselkumab for ulcer ,100,Injectatable ,USA,BLA,Phase 3,BLA# 623082,23-01-2024,Proessed ,jonathan.garry@cder.co.in,14-04-2024
+110011,A-001-011,Tremfya,Johnson and Johnson,Guselkumab for ulcer ,100,Injectatable ,Canada ,BLA,Phase 3,BLA# 557812,20-01-2024,Pending ,mclaudin.daniel@cder.co.in,5/12/2024
+110012,B-001-012,Nipocalimab,Johnson and Johnson,Nipocalimab,10,capsule ,USA,BLA,Phase 3,BLA# 102234,23-02-2024,Pending ,simmon.graffin@drl.co.in,5/10/2024
+110013,A-001-013,Cabenuava,Johnson and Johnson,Cabenuava,5,Tablet ,EU,BLA,Phase 3,BLA# 112349,15-04-2024,Terminated ,saritwean.gram@cder.co.in,14-04-2024
+110014,T-001-014,RYBREVANT,Johnson and Johnson,amivantamab,10,Injectatable ,USA,BLA,Phase 3,BLA# 423402,2/4/2024,Pending ,marie.twain@cder.co.in,20-04-2024
+110015,T-001-015,EDURANT ,Johnson and Johnson,rilpivirine,25,Tablet ,UK,ANDA,Prescription ,ANDA# 248801,1/10/2024,Closed ,marie.twain@cder.co.in,20-05-2024

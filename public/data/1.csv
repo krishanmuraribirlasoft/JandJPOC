@@ -1,0 +1,17 @@
+Req ID,Tracking ID,Product Name ,Registration no ,Holder ,DMF#,Dosage (mg),Country ,Sub date ,Status ,e mail Notification ,Expect date of closing 
+100000,0019-12-12,Macitentan,441798-33-0,Johnson and Johnson ,1,25,Russia,12/10/2020,Pending ,alfred.david@mathn,
+100001,0019-12-13,Macitentan,441798-33-0,Johnson and Johnson ,2,50,Russia,12/10/2020,Processed ,Jonathan.kelvin@dmfo.co.in,5/1/2021
+100002,0019-12-14,Macitentan,441798-33-0,Johnson and Johnson ,3,100,Russia ,12/10/2020,Closed ,Jonathan.kelvin@dmfo.co.in,9/1/2021
+100003,0019-12-15,Macitentan,441798-33-0,Johnson and Johnson ,4,20,Sweden,12/10/2020,Processed ,Jonathan.kelvin@dmfo.co.in,12/2/2021
+100004,0019-12-16,Selxipag,475086-01-2,Maithri Drug ,5,10,Russia ,11/20/2021,Pending ,selvam.rajappam@maitth,
+100005,0019-12-17,Selxipag,475086-01-2,Maithri Drug ,6,50,Russia ,11/20/2021,Processed ,selvam.rajappam@maitth,
+100006,0019-12-18,Macitentan,441798-33-0,Synoes Health ,7,25,Russia,11/23/2021,Closed ,michael.kavandis@kaplan.co,
+100007,0019-12-19,Macitentan,441798-33-0,Synoes Health ,8,50,Russia ,11/23/2021,Closed ,michael.kavandis@kaplan.co,
+100008,0019-12-20,MACITENTAN [ROUTE CODE IM],441798-33-0,MSN Life Sc,9,25,Russia ,2/5/2016,Pending ,venkates.manikandan@reviewdos,
+100009,0019-12-21,Macitentan,441798-33-0,MSN Life Sc,10,100,Sweden,4/5/2023,Pending ,venkates.manikandan@reviewdos,
+100010,0019-12-22,Blastin,202189-78-4,Biophore India ,11,100,Japan,12/29/2023,Terminated ,saito.kazayuki @dosrev.co.in,1/15/2024
+100011,0019-12-23,Blastin,202189-78-4,Biophore India ,12,50,Australia,12/29/2023,Terminated ,saito.kazayuki @dosrev.co.in,1/20/2024
+100012,0020-01-01,ROFLUMILAST ,162401-32-3,HEFEI TIANRUI Pharm,13,500,USA,12/20/2023,Processed ,ian.cliff@sarjen.com,2/2/2024
+100013,0020-01-02,Nasal Nicotine solution,54-11-5,Johnson and Johnson ,14,1,USA,10/12/2022,Processed ,sophia_medchem@sarrev.com,4/1/2023
+100014,0020-10-01,Nasal Nicotine solution,54-11-5,Johnson and Johnson ,15,0.5,USA,12/15/2022,Processed ,sophia_medchem@sarrev.com,10/1/2023
+100015,0020-10-11,Macitentan,441798-33-0,Honor Lab,16,50,USA,12/18/2020,Processed ,yang.jinzan@jiagsu.com,12/15/2021
