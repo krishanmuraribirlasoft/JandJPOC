@@ -85,11 +85,8 @@ const promptData = [
     dataInsigts: [
       {
         id: 1,
-        insight: "Countries having maximum submission data for Blastin.",
-      },
-      {
-        id: 2,
-        insight: "Number of dossages for Selxipag in Russia",
+        insight:
+          "USA need to have more submissions on dosages as the submission were slowed down in 2023.",
       },
     ],
   },
@@ -169,6 +166,13 @@ const promptData = [
         recommendation: "Dosage for Fenatnyl in Argentina",
       },
     ],
+    dataInsigts: [
+      {
+        id: 1,
+        insight:
+          "Product Lonazep need to be processed in Argentina and Australia which acts as gifting strategy in long-term.",
+      },
+    ],
   },
 
   {
@@ -204,11 +208,13 @@ const promptData = [
       {
         prompt:
           "What are the corresponding application numbers for pending status?",
-        response: `Below are the application numbers for BLA in pending status:-
-          BLA# 452234
-          BLA# 557812
-          BLA# 102234
-          BLA# 423402`,
+        response: `Below are the application numbers for BLA in pending status:- `,
+        additionalData: [
+          "BLA# 452234",
+          "BLA# 557812",
+          "BLA# 102234",
+          "BLA# 423402",
+        ],
       },
       {
         prompt:
@@ -276,6 +282,13 @@ const promptData = [
         id: 2,
         recommendation:
           "Get the Marketing Status for Application No.s ANDA #040666  & IND# 355091",
+      },
+    ],
+    dataInsigts: [
+      {
+        id: 1,
+        insight:
+          "More registrations should happen for products Seltorexant and Nipocalimab next year, and allocate marketing and advertising budget to capitalize its popularity.",
       },
     ],
   },

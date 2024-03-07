@@ -58,9 +58,7 @@
 
 .left-custom-sidebar a {
   padding: 15px 0px 21px 24px;
-  
 }
-
 
 .chat-area-box {
   position: relative;
@@ -153,6 +151,6 @@ table {
   border-radius: 10px;
 }
 
-/* .apexcharts-text {
+#pie .apexcharts-text {
   fill: #fff !important;
-} */
+}

@@ -97,9 +97,13 @@ const Dashboard: React.FC = () => {
   const submitSearchQuery = async (question) => {
     // console.log("submitSearchQuery", searchQuery, promptData);
     try {
-      const filterdObj = promptData.filter(
-        (obj) => obj.question === searchQuery || obj.question === question,
-      );
+      const filterdObj = promptData.filter((obj) => {
+        if (question) {
+          return obj.question === question;
+        } else {
+          return obj.question === searchQuery;
+        }
+      });
       console.log("filterdObj", filterdObj);
       if (filterdObj.length) {
         const response = await fetch(`/data/${filterdObj[0].fileName}`);
@@ -161,9 +165,17 @@ const Dashboard: React.FC = () => {
               isOptionSelected ? "text-black dark:text-white" : ""
             }`}
           >
-            <option value="USA" className="text-body dark:text-bodydark">
-              Regulatory
-            </option>
+            {["RIMS", "e-CTD", "CTMS", "Drug Safety Reporting", "QMS"].map(
+              (opt) => (
+                <option
+                  key={opt}
+                  value={opt}
+                  className="text-body dark:text-bodydark"
+                >
+                  {opt}
+                </option>
+              ),
+            )}
           </select>
           <span className="upDownSvg">
             <svg

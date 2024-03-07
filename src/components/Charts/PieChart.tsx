@@ -60,8 +60,14 @@ const PieChart = (props: { dataId: number; labels: any; series: any }) => {
       series: [2, 8, 1, 2, 1, 2],
       type: "pie",
       title: {
-        text: "Products",
+        text: "Number of Request per Product",
         align: "center",
+      },
+
+      dataLabels: {
+        formatter: function (val, opts) {
+          return val;
+        },
       },
     };
   } else if (dataId === 2) {
@@ -128,7 +134,7 @@ const PieChart = (props: { dataId: number; labels: any; series: any }) => {
         },
       ],
       chart: {
-        type: "bar",
+        type: "line",
         height: 350,
       },
       plotOptions: {
@@ -168,12 +174,12 @@ const PieChart = (props: { dataId: number; labels: any; series: any }) => {
           },
         },
       },
-      type: "bar",
+      type: "line",
     };
   }
 
   return (
-    <div className="mx-auto w-full">
+    <div className="mx-auto w-full" id={options.type}>
       <Chart
         options={options}
         series={options.series}

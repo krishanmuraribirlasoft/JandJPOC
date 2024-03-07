@@ -74,6 +74,7 @@ const ChatCard = (props: { conversation: any }) => {
           {
             prompt: searchQuery,
             response: filterObj[0].response,
+            additionalData: filterObj[0]?.additionalData || [],
           },
         ];
         setChatData(dataObject);
@@ -105,7 +106,6 @@ const ChatCard = (props: { conversation: any }) => {
                 strokeWidth="2"
                 strokeLinecap="round"
                 stroke-linejoin="round"
-                className="cursor-pointer"
               >
                 <path d="M5 9l5 5 5-5" />
               </svg>
@@ -128,6 +128,7 @@ const ChatCard = (props: { conversation: any }) => {
                 </div>
 
                 {chatData.map((data, index) => {
+                  console.log(data, "arv data");
                   return (
                     <div key={index}>
                       <div className="mb-4 flex w-[85%] items-start">
@@ -167,7 +168,8 @@ const ChatCard = (props: { conversation: any }) => {
                       <div className="mb-4 ml-[15%] flex w-[85%] items-end justify-end">
                         <div className="flex items-start rounded-lg border-[1px] border-[#ccc] bg-[#eee] px-4 py-2">
                           <svg
-                            width="64px"
+                            height={28}
+                            width={28}
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -201,9 +203,29 @@ const ChatCard = (props: { conversation: any }) => {
                               ></path>{" "}
                             </g>
                           </svg>
-                          <p className="ml-2 text-[14px] font-semibold text-black">
-                            {data.response}
-                          </p>
+                          <div className="flex flex-col">
+                            <p className="ml-2 text-[14px] font-semibold text-black">
+                              {data.response}
+                            </p>
+                            <div>
+                              {" "}
+                              {data?.additionalData?.length > 0 && (
+                                <ul>
+                                  {/* {JSON.stringify(data.additionalData)} */}
+                                  {data?.additionalData.map((d) => {
+                                    return (
+                                      <li
+                                        key={d}
+                                        className="ml-4 list-disc text-[10px] font-semibold italic text-black"
+                                      >
+                                        {d}
+                                      </li>
+                                    );
+                                  })}
+                                </ul>
+                              )}
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -292,9 +314,7 @@ const ChatCard = (props: { conversation: any }) => {
         <div className="conversation-box mt-3">
           <div className="heading-container">
             <div className="flex items-center justify-between">
-              <h2 className="text-lg font-semibold text-black">
-                Data Insights
-              </h2>
+              <h2 className="text-lg font-semibold text-black">Insights</h2>
               <svg
                 className="cursor-pointer"
                 onClick={() => {
@@ -327,43 +347,20 @@ const ChatCard = (props: { conversation: any }) => {
                       <div className="mb-2  flex justify-start">
                         <div className="">
                           <svg
-                            height={22}
-                            viewBox="0 0 24 24"
-                            fill="none"
+                            className="mt-1.5"
                             xmlns="http://www.w3.org/2000/svg"
-                            className="mr-2 mt-1"
+                            height={18}
+                            viewBox="0 0 20 20"
                           >
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g
-                              id="SVGRepo_tracerCarrier"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            ></g>
-                            <g id="SVGRepo_iconCarrier">
-                              {" "}
-                              <circle
-                                cx="12"
-                                cy="12"
-                                r="10"
-                                stroke="#6495ed"
-                                stroke-width="1.5"
-                              ></circle>{" "}
-                              <path
-                                d="M10.125 8.875C10.125 7.83947 10.9645 7 12 7C13.0355 7 13.875 7.83947 13.875 8.875C13.875 9.56245 13.505 10.1635 12.9534 10.4899C12.478 10.7711 12 11.1977 12 11.75V13"
-                                stroke="#6495ed"
-                                stroke-width="1.5"
-                                stroke-linecap="round"
-                              ></path>{" "}
-                              <circle
-                                cx="12"
-                                cy="16"
-                                r="1"
-                                fill="#6495ed"
-                              ></circle>{" "}
-                            </g>
+                            <path
+                              id="Path_15"
+                              data-name="Path 15"
+                              d="M10,20a9.738,9.738,0,0,1-3.9-.788A9.984,9.984,0,0,1,.788,13.9,9.738,9.738,0,0,1,0,10,9.738,9.738,0,0,1,.788,6.1,9.984,9.984,0,0,1,6.1.788,9.738,9.738,0,0,1,10,0a9.738,9.738,0,0,1,3.9.788A9.984,9.984,0,0,1,19.212,6.1,9.738,9.738,0,0,1,20,10v8a2.006,2.006,0,0,1-2,2Zm0-2a7.721,7.721,0,0,0,5.675-2.325A7.721,7.721,0,0,0,18,10a7.721,7.721,0,0,0-2.325-5.675A7.721,7.721,0,0,0,10,2,7.721,7.721,0,0,0,4.325,4.325,7.721,7.721,0,0,0,2,10a8.319,8.319,0,0,0,.075,1.125A7.689,7.689,0,0,0,2.3,12.2L6,8.5l3.3,2.775L12.575,8H11V6h5v5H14V9.425L9.4,14,6.125,11.2l-2.95,2.95a8.118,8.118,0,0,0,2.837,2.788A7.656,7.656,0,0,0,10,18Zm7.5.5a.982.982,0,1,0-.712-.288A.968.968,0,0,0,17.5,18.5Z"
+                              fill={"#6495ed"}
+                            />
                           </svg>
                         </div>
-                        <div className="ml-1">
+                        <div className="ml-2.5">
                           <span className="text-[14px] font-semibold text-black">
                             {data.insight}
                           </span>
@@ -383,6 +380,7 @@ const ChatCard = (props: { conversation: any }) => {
               <h2 className="text-lg font-semibold text-black">
                 Recommendations
               </h2>
+
               <svg
                 className="cursor-pointer"
                 onClick={() => {
@@ -415,6 +413,25 @@ const ChatCard = (props: { conversation: any }) => {
                       <div className="mb-2  flex justify-start">
                         <div className="">
                           <svg
+                            className="mt-1.5"
+                            xmlns="http://www.w3.org/2000/svg"
+                            height={18}
+                            viewBox="0 0 21 20"
+                          >
+                            <g
+                              id="Group_26"
+                              data-name="Group 26"
+                              transform="translate(-2 -1)"
+                            >
+                              <path
+                                id="Path_16"
+                                data-name="Path 16"
+                                d="M18,21H7V8l7-7,1.25,1.25a1.313,1.313,0,0,1,.288.475,1.636,1.636,0,0,1,.112.575v.35L14.55,8H21a2.051,2.051,0,0,1,2,2v2a1.551,1.551,0,0,1-.05.375q-.05.2-.1.375l-3,7.05a2.02,2.02,0,0,1-.75.85A1.953,1.953,0,0,1,18,21ZM9,19h9l3-7V10H12l1.35-5.5L9,8.85ZM7,8v2H4v9H7v2H2V8Z"
+                                fill={"#6495ed"}
+                              />
+                            </g>
+                          </svg>
+                          {/* <svg
                             height={22}
                             viewBox="0 0 24 24"
                             fill="none"
@@ -449,10 +466,10 @@ const ChatCard = (props: { conversation: any }) => {
                                 fill="#6495ed"
                               ></circle>{" "}
                             </g>
-                          </svg>
+                          </svg> */}
                         </div>
-                        <div className="ml-1">
-                          <span className="text-[14px] font-semibold text-black">
+                        <div className="ml-2.5 ">
+                          <span className="cursor-pointer text-[14px] font-semibold text-blue-500 underline">
                             {data.recommendation}
                           </span>
                         </div>
